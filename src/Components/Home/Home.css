@@ -1,0 +1,25 @@
+.home{
+    background-image: url(../../assets/tshirt_1.jpg);
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+}
+
+.home1{
+   text-align: center;
+   color: white;
+}
+
+.gridTemplate{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    height:500px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.grid img{
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+}
